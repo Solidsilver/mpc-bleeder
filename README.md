@@ -36,10 +36,20 @@ mpc-bleeder -o cards_with_bleed cards
 
 ## Installation
 
+### Releases
+
+1. Head over to the [Releases](https://github.com/Solidsilver/mpc-bleeder/releases) tab
+2. Download the latest release for your OS/Arch
+3. Extract the package and put the `mpc-bleeder` executible somewhere accessible
+4. Use the instructions above to run.
+
+### Build
+
 1.  **Make sure you have Go installed.** You can download it from the official website: [https://golang.org/dl/](https://golang.org/dl/)
 2.  **Clone this repository:** `git clone https://github.com/Solidsilver/mpc-bleeder`
 3.  **Navigate to the project directory:** `cd mpc-bleeder`
 4.  **Build the executable:** `just build` or `go build`
+5.  Use the instructions above to run.
 
 ## Contributing
 
